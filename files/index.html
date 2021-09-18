@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/38437135aa.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock,Paper,Scissors</title>
+</head>
+<body>
+    <div class="container">
+        <button class="btn">
+            <span><i class="fas fa-sun sun"></i></span>
+            <span><i class="fas fa-moon moon"></i></span>
+            <span class="switch"></span>
+        </button>
+        <div class="players">
+            <div class="gamer">
+                <h4>Player</h4>
+            </div>
+            <div class="computer">
+                <h4>Comp</h4>
+            </div>
+        </div>
+        <div class="score_board">
+            <div class="player">
+                <p class="player-1">0</p>
+            </div>
+            <div class="dot">
+                <p>:</p>
+            </div>
+            <div class="comp">
+                <p class="comp-1">0</p>
+            </div>
+        </div>
+        <div class="choice">
+            <p class="rock"><i class="fas fa-hand-rock"></i></p>
+            <p class="paper"><i class="fas fa-hand-paper"></i></p>
+            <p class="scissors"><i class="fas fa-hand-scissors"></i></p>
+        </div>
+        <div class="winner">
+            <p class="win">Winner : </p>
+        </div>
+        <div class="moves">
+            <p class="chances">Moves Left : </p>
+        </div>
+    </div>
+    <div class="start">
+        <button class="gameOn" onclick="start()">START</button>
+    </div>
+    <div class="reset">
+        <button class="gameReset" onclick="reset()">Reset</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
